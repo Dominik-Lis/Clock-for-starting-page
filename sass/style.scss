@@ -3,3 +3,67 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	font-family: "Lato", sans-serif;
+}
+.title {
+	display: flex;
+	height: 15vh;
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+}
+.text {
+	color: white;
+	text-transform: uppercase;
+}
+.top {
+	font-size: 4vw;
+	letter-spacing: 1vw;
+}
+.main {
+	display: flex;
+	height: 70vh;
+	background-color: gray;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.bg-image {
+	background-image: url(../img/);
+}
+.time {
+	font-size: 15vh;
+}
+.date {
+	font-size: 5vh;
+}
+.foot {
+	display: flex;
+	height: 15vh;
+	background-color: black;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.bottom {
+	font-size: 3vw;
+	background-image: linear-gradient(to left, violet, rgb(145, 24, 231), aqua, rgb(95, 213, 95), yellow, orange, red);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.btn {
+	width: 50px;
+	height: 50px;
+	border-radius: 20%;
+	cursor: pointer;
+	padding: 0;
+	border: none;
+	transition: background-color 0.4s;
+}
+.navy:hover {
+	background: rgb(14, 14, 233);
+}
+.white:hover {
+	background-color: rgb(130, 123, 123);
+}
